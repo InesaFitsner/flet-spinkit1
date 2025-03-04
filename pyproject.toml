@@ -1,0 +1,42 @@
+[project]
+name = "flet-spinkit1"
+version = "0.1.0"
+description = "FletSpinkit1 control for Flet"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Flet contributors", email = "you@example.com" }
+]
+dependencies = [
+    "flet>=0.27.4",
+]
+
+[project.urls]
+Homepage = "https://mydomain.dev"
+Documentation = "https://github.com/MyGithubAccount/flet-spinkit1"
+Repository = "https://github.com/MyGithubAccount/flet-spinkit1"
+Issues = "https://github.com/MyGithubAccount/flet-spinkit1/issues"
+
+[tool.setuptools.package-data]
+"flutter.flet_spinkit1" = ["**/*"]
+
+[tool.uv]
+dev-dependencies = [
+    "flet[all]==0.27.4",
+    "mkdocs", 
+    "mkdocs-material",
+    "mkdocstrings[python]"
+]
+
+[tool.poetry.group.dev.dependencies]
+flet = {extras = ["all"], version = "0.27.4"}
+mkdocs = "*"
+mkdocstrings = { extras = ["python"], version = "*" }
+mkdocs-material = "*"
+
+[tool.setuptools]
+license-files = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

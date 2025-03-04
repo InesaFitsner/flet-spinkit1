@@ -1,0 +1,7 @@
+site_name: FletSpinkit1
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings

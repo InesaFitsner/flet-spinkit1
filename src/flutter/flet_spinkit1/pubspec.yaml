@@ -1,0 +1,20 @@
+name: flet_spinkit1
+description: Flet FletSpinkit1 control
+repository: https://github.com/MyGithubAccount/flet-spinkit1/src/flutter/flet_spinkit1
+version: 0.1.0
+homepage: https://github.com/MyGithubAccount/flet-spinkit1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flet: 0.27.4
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  
